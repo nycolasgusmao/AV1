@@ -1,0 +1,145 @@
+﻿<html>
+
+<head>
+    <meta charset="UFT-8">
+    <title>Vist-Formulário de cadastro</title>
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/slick.css" />
+    <link rel="stylesheet" href="../css/bulma.min.css">
+
+    <form action="http://formmail.kinghost.net/formmail.cgi" method="POST" > 
+        <input type="hidden" name="recipient" value="nycolas281@gmail.com"> 
+        <input type="hidden" name="subject" value="OLÁ">  
+        <input type="hidden" name="email" value="nycolas281@gmail.com">
+       
+    
+
+    
+</head>
+
+<body>
+
+    <header class="menu-principal">
+        <main>
+            <div class="header-1">
+                <div class="logo">
+                    <img src="../img/logovist.png" />
+                </div>
+                <div class="redes-sociais">
+                    <ul>
+                        <li>
+                            <a href="https://pt-br.facebook.com">
+                                <img src="../img/face.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/login?lang=pt">
+                                <img src="../img/tw.png" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://br.linkedin.com/">
+                                <img src="../img/linkedin.png" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class="col-100 menu-urls">
+        <div class="header-2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+			<li>
+		        <a href="">Sobre nos</a>
+		    </li>
+		    <li>
+		        <a href="">Explore</a>
+		    </li>
+                    
+                    <li>
+                        <a href="../Uniprojeto/paginas/formulario.html">Faça parte</a>
+                    </li>                    
+                    <li>
+                        <a href="../paginas/contato.html">Fale Conosco</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="busca">
+                <input placeholder="pesquise" type="text" />
+            </div>
+        </div>
+    </main>
+    <div class="section">
+<section class="section">
+<div class="container">
+    <div class="columns is-centered">
+    <div class="column is-half">
+        <h1 class="title has-text-centered">Cadastre sua ONG</h1>
+        <form action="enviar.php" method="POST">
+            <div class="field">
+                <label class="label">Nome da ONG</label>
+                <div class="control">
+                    <input name="Nome" class="input" type="text" placeholder="Sua ONG">
+                </div>
+            </div>
+           
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                    <input name="Email" class="input" type="text" placeholder="Email de contato">
+                </div>
+
+                <div class="field">
+                    <label class="label">Área de atuação</label>
+                    <div class="control">
+                       <div class="select is-fullwidth">
+                           <select name="Area">
+                               <option>Edução</option>
+                               <option>Ambiental</option>
+                               <option>Proteção animal</option>
+                               <option>Outros</option>
+                           </select>
+                       </div> 
+                    </div>
+
+                    <div class="field">
+                        <label class="label">Descrição</label>
+                        <div class="control">
+                           <textarea name="Descrição" class="textarea" placeholder="Deixe sua mensagem" maxlength="2000"></textarea>
+                        </div>
+
+                        <Div class="field is-grouped">
+                            <div class="control">
+                                
+                             <input type="submit" name="Formulario" value="Enviar"> 
+                            </div>
+                        </Div>
+
+        </form>
+
+
+
+    </div>
+</div>
+</div>
+
+
+
+
+</section>
+    </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
